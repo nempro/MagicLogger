@@ -1,0 +1,15 @@
+MagicLogger.exe
+MagicLogger.dll
+MagicLogger.deps.json
+MagicLogger.runtimeconfig.json
+Microsoft.Data.Sqlite.dll
+SQLitePCLRaw.batteries_v2.dll
+SQLitePCLRaw.core.dll
+SQLitePCLRaw.provider.e_sqlite3.dll
+e_sqlite3.dll
+Start-MagicLogger.cmd
+README.md
+THIRD-PARTY-NOTICES.txt
+THIRD-PARTY-LICENSES/MIT.txt
+THIRD-PARTY-LICENSES/Apache-2.0.txt
+LICENSE

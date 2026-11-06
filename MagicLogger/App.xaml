@@ -1,0 +1,29 @@
+<Application x:Class="MagicLogger.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             >
+  <Application.Resources>
+    <SolidColorBrush x:Key="Ink" Color="#302B25" />
+    <SolidColorBrush x:Key="FadedInk" Color="#746B60" />
+    <SolidColorBrush x:Key="Paper" Color="#F2EAD8" />
+    <SolidColorBrush x:Key="PaperDeep" Color="#E8DDC5" />
+    <SolidColorBrush x:Key="Night" Color="#171512" />
+    <Style TargetType="Button">
+      <Setter Property="FontFamily" Value="Yu Mincho, Yu Gothic UI" />
+      <Setter Property="Cursor" Value="Hand" />
+      <Setter Property="Padding" Value="10,6" />
+      <Setter Property="BorderThickness" Value="0" />
+      <Setter Property="Background" Value="Transparent" />
+    </Style>
+    <Style TargetType="TextBlock">
+      <Setter Property="FontFamily" Value="Yu Mincho, Yu Gothic UI" />
+    </Style>
+    <Style TargetType="TextBox">
+      <Setter Property="FontFamily" Value="Yu Mincho, Yu Gothic UI" />
+      <Setter Property="Foreground" Value="{StaticResource Ink}" />
+      <Setter Property="Background" Value="#FFF9EC" />
+      <Setter Property="BorderBrush" Value="#AD9B7B" />
+      <Setter Property="Padding" Value="6" />
+    </Style>
+  </Application.Resources>
+</Application>

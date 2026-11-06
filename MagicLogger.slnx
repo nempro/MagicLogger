@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MagicLogger.Tests/MagicLogger.Tests.csproj" />
+  <Project Path="MagicLogger/MagicLogger.csproj" />
+</Solution>

@@ -1,0 +1,28 @@
+Third-party components in the Windows x64 framework-dependent MagicLogger candidate folder
+Checked: 2026-11-06. This is a component notice, not a license for MagicLogger itself.
+
+Microsoft.Data.Sqlite 10.0.11 and Microsoft.Data.Sqlite.Core 10.0.11
+Copyright (c) .NET Foundation and Contributors
+License: MIT. Full text: THIRD-PARTY-LICENSES/MIT.txt
+Source: https://github.com/dotnet/efcore/blob/v10.0.11/LICENSE.txt
+
+SQLitePCLRaw.bundle_e_sqlite3 2.1.12, SQLitePCLRaw.core 2.1.12,
+SQLitePCLRaw.lib.e_sqlite3 2.1.12, SQLitePCLRaw.provider.e_sqlite3 2.1.12
+Copyright (c) SourceGear, LLC
+Copyright (c) Microsoft Open Technologies, Inc. All Rights Reserved.
+
+License: Apache License 2.0. Full text: THIRD-PARTY-LICENSES/Apache-2.0.txt
+Source: https://github.com/ericsink/SQLitePCL.raw/tree/v2.1.12
+The upstream NOTICE identifies SourceGear as the copyright name used since
+SQLitePCL.raw 2.0 (Zumero was its earlier trade name). The current e_sqlite3
+bundle does not include the SQLCipher and OpenSSL variants named in that
+upstream multi-bundle NOTICE.
+Upstream NOTICE: https://github.com/ericsink/SQLitePCL.raw/blob/v2.1.12/NOTICE.TXT
+
+SQLite native library (included by SQLitePCLRaw.lib.e_sqlite3)
+SQLite is in the public domain. The authors disclaim copyright.
+Source: https://www.sqlite.org/copyright.html
+
+The candidate folder does not bundle the .NET runtime. If the distribution
+configuration or dependency versions change, recheck the actual file list and
+its notices before release.
